@@ -10,7 +10,8 @@ export const Navbar = () => {
         <nav className="navbar navbar-expand-lg navbar-light bg-dark">
             <div className="container">
   <div className="container-fluid">
-    <a className="navbar-brand" href="#"><img className="logo" src={logo} alt="Logo"/></a>
+    <a className="navbar-brand" href="#"></a>
+    {/* <img className="logo" src={logo} alt="Logo"/> */}
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="flase" aria-label="Toggle navigation">
       {/* <FontAwesome icon={faBars} style={{color: "#fff"}}/> */}
     </button>
