@@ -1,23 +1,24 @@
-import React from 'react';
+import React from "react";
 import Typed from "react-typed";
 
-export const Header = () => {
-    return (
-        <div className="header-wrapper">
-            <div className="main-info">
-                {/* <h1>Web Development</h1> */}
-                <Typed
-                className="typed-text"
-                strings={["Web Design","Web Development", "Facebook Ads", "Google Ads"]}
-                typeSpeed={40}
-                backSpeed={60}
-                loop
-                />
-                <a href="#" className="btn-main-offer">CONTACT ME</a>
 
-            </div>
-        </div>
-    )
+const Header = () => {
+  return (
+    <div className="header-wraper">
+      <div className="main-info">
+        <canvas></canvas>
+        {/* <h1>web development and websites promotions</h1> */}
+        <Typed
+          className="typed-text"
+          strings={["Web Design", "Web Development", "Facebook Ads SMM", "Google Ads"]}
+          typeSpeed={33}
+          backSpeed={50}
+          loop
+        />
+        <a href="#" className="btn-main-offer">contact me</a>
+      </div>
+    </div>
+  )
 }
 
 export default Header;
