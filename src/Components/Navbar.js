@@ -1,5 +1,7 @@
 import React from 'react'
 import logo from "../logo.jpg"
+import 'bootstrap/dist/css/bootstrap.min.css'
+import * as ReactBootStrap from "react-bootstrap"
 //FONTAWESOME
 // import {FontAwesome} from "react-fontawesome";
 // import {faBars} from "react-fontawesome";
@@ -12,7 +14,10 @@ export const Navbar = () => {
   <div className="container-fluid">
     <a className="navbar-brand" href="#"></a>
     {/* <img className="logo" src={logo} alt="Logo"/> */}
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="flase" aria-label="Toggle navigation">
+    {/* <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav"/>
+    <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav"/> */}
+
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       {/* <FontAwesome icon={faBars} style={{color: "#fff"}}/> */}
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
